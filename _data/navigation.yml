@@ -1,0 +1,102 @@
+
+# Главное меню
+main:
+  - title: "Инструкции"
+    url: /docs/guide/
+  - title: "Публикации"
+    url: /
+  - title: "По годам"
+    url: /year-archive/
+  - title: "По категориям"
+    url: /categories/
+  - title: "По тегам"
+    url: /tags/
+  - title: "Архив страниц"
+    url: /page-archive/
+  - title: "По коллекциям"
+    url: /collection-archive/
+  - title: "Карта сайта"
+    url: /sitemap/
+  - title: "Обо мне"
+    url: /about/
+  - title: "Условия"
+    url: /terms/
+
+# Инструкции
+docs:
+  - title: "Инструкции"
+    url: /docs/guide/
+
+  - title: Yandex.Cloud
+    url: /docs/yandex/tracker
+    children:
+    - title: "Создание / удалением snapshot c использованием serverless"
+      url: /docs/yandex/cloud-snapshot-triggers
+
+  - title: aws_cli
+    children:
+    - title: "Установка"
+      url: /docs/aws_cli/install_aws_cli
+    - title: "Список загрузок"
+      url: /docs/aws_cli/list-multipart-uploads
+    - title: "Удаление загрузки"
+      url: /docs/aws_cli/abort-multipart-upload
+
+  - title: Яндекс.Трекер
+    url: /docs/yandex/tracker
+    children:
+    - title: "Создание проекта"
+      url: /docs/yandex/tracker_projects
+    - title: "Создание / изменение категории"
+      url: /docs/yandex/tracker_categories
+    - title: "Создание / изменение поля"
+      url: /docs/yandex/tracker_fields
+
+  - title: postgresql
+    children:
+    - title: "Перенос базы на другой диск"
+      url: /docs/postgresql/tablespace
+
+  - title: Ubuntu
+    children:
+
+      - title: "Обновление (upgrade)"
+        url: /docs/ubuntu/upgrade
+      - title: "Заморозка файловой системы"
+        url: /docs/ubuntu/fsfreeze
+      - title: "Использование SSH"
+        url: /docs/ubuntu/ssh
+      - title: "Память (memory)"
+        url: /docs/ubuntu/memory
+      - title: "Файл подачик (swap)"
+        url: /docs/ubuntu/swap
+      - title: "Переопределение размера диска"
+      - url: /docs/ubuntu/resize2fs/
+      - title: "Файловый сервер (samba)"
+        url: /docs/ubuntu/file-server
+      - title: "FTP сервер"
+        url: /docs/ubuntu/ftp-server
+      - title: "SFTP сервер"
+        url: /docs/ubuntu/sftp-server
+      - title: "Монтироание диска (s3fs)"
+        url: /docs/ubuntu/s3fs
+      - title: "Монтироание диска (mount)"
+        url: /docs/ubuntu/mount
+      - title: "nginx"
+        url: /docs/ubuntu/nginx
+      - title: "postgresql"
+        url: /docs/ubuntu/postgresql
+      - title: "redmine"
+        url: /docs/ubuntu/redmine
+      - title: "youtrack"
+        url: /docs/ubuntu/youtrack
+      - title: "gitlab"
+        url: /docs/ubuntu/gitlab
+      - title: "zabbix"
+        url: /docs/ubuntu/zabbix
+      - title: "-linux"
+        url: /docs/ubuntu/zabbix-agent-linux
+      - title: "-windows"
+        url: /docs/ubuntu/zabbix-agent-windows
+      - title: "-pg-monitoring"
+        url: /docs/ubuntu/zabbix-pg-monitoring
