@@ -77,10 +77,10 @@ author:
   location : "Россия, Екатеринбург"
   links:
     - label: "GitHub"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/AShipulin"
     - label: "ARCTL.ONLINE"
-      icon: "fab fa-fw fa-globe"
+      icon: "fas fa-fw fa-link"
       url: "https://arctl.online"
 
 
@@ -88,10 +88,10 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/AShipulin"
     - label: "ARCTL.ONLINE"
-      icon: "fab fa-fw fa-globe"
+      icon: "fas fa-fw fa-link"
       url: "https://arctl.online"
 
 
