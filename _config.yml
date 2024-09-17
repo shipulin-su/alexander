@@ -71,13 +71,13 @@ analytics:
 
 # Site Author
 author:
-  name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/Alexander-Shipulin.jpg"
-  bio              : "Руководитель, разработчик, аналитик"
-  location         : "Россия, Екатеринбург"
+  name     : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar   : "/assets/images/Alexander-Shipulin.jpg"
+  bio      : "Руководитель, разработчик, аналитик"
+  location : "Россия, Екатеринбург"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-fw fa-link"
       url: "https://github.com/AShipulin"
     - label: "ARCTL.ONLINE"
       icon: "fab fa-fw fa-globe"
@@ -88,7 +88,7 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-fw fa-link"
       url: "https://github.com/AShipulin"
     - label: "ARCTL.ONLINE"
       icon: "fab fa-fw fa-globe"
