@@ -14,6 +14,7 @@ tags:
 где редактирование страниц выполняется с использованием разметки markdown.
 
 Для этого потребуется:
+
 - регистрация на GitHub
 - GitHub Desktop https://desktop.github.com/
 - Atom https://atom.io/
@@ -75,6 +76,7 @@ docs - это раздел сайта с документацией
 
 1. Открываем `_config.yml`
 2. Дописываем Collections
+
 ```
 # Collections
 collections:
@@ -82,7 +84,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 ```
+
 3. Дописываем defaults
+
 ```
 # Defaults
 defaults:
@@ -104,7 +108,6 @@ defaults:
 
 - при удалении `2010-09-09-post-gallery` удалить ссылку в `_docs\14-helpers.md`
 - Кроме `_posts\9999-12-31-post-future-date.md`
-
 
 ### Настраиваем поиск google
 
@@ -129,6 +132,6 @@ search_provider          : lunr
 
 https://analytics.google.com/analytics/web/#/
 
-
 ### Пример кода страницы /еxample-content/
+
 - /еxample-content/
