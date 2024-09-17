@@ -1,11 +1,11 @@
-# Сайт посвещенный информационым технологиям
+# Мой сайт дневник и записная книжка
 
 На сайте можно найти:
 
 - Простые стати
-- Примеры кода инструкции
-- Портфолио 
+- Примеры кода (чтобы не забыть)
+- Портфолио
 - Резюме
 - Научные статьи
 
-Сайт создан с использоваанием темы [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) и билиотеки [Jekyll](https://jekyllrb.com/).
+Сайт создан с использованием темы [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) и библиотеки [Jekyll](https://jekyllrb.com/).
