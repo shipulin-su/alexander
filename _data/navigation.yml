@@ -1,8 +1,10 @@
 
 # Главное меню
 main:
-  - title: "Инструкции"
-    url: /docs/guide/
+#  - title: "Инструкции"
+#    url: /docs/guide/
+  - title: "Курсы"
+    url: /courses/
   - title: "Публикации"
     url: /
   - title: "По годам"
